@@ -12,7 +12,7 @@ huggingface_hub
 sentence-transformers==3.4.1
 torch==2.2.2
 torchvision==0.17.2
-transformers==4.57.6
+transformers==5.10.1
 numpy<2
 python-dotenv
 pyngrok
