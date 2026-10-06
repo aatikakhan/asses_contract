@@ -10,7 +10,7 @@ langchain-docling
 docling
 huggingface_hub
 sentence-transformers==3.4.1
-torch==2.2.2
+torch==2.13.0
 torchvision==0.17.2
 transformers==4.57.6
 numpy<2
