@@ -318,6 +318,19 @@ Answer:"""
 # ===============================
 # SECTION 3: Streamlit UI
 # ===============================
+st.set_page_config(page_title="Contract Risk Assessment", layout="wide")
+st.markdown(
+    """
+    <style>
+    .block-container {
+        max-width: 1400px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 st.title("Contract Risk Assessment")
 
 if not HF_TOKEN:
